@@ -1,12 +1,30 @@
-## Introduction
+
+##NEW
+These files recreate the plots included in the instructions (see below). These data concern
+household energy usage in February, 2007. 
+
+##Added to this repository:
+#There are four PNG files and four R code files as follows:
+	*Plot1.R
+	*Plot2.R
+	*Plot3.R
+	*Plot4.R
+	*Plot1.png
+	*Plot2.png
+	*Plot3.png
+	*Plot4.png
+
+Each of the .R files includes code for creating the corresponding .png plot file.
+The code is written assuming that the data file is downloaded and available in the 
+working directory, and only reads the relevant subset of data. All plots created using the 
+base plotting system. 
+
+
+## Assignment Instructions
 
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
-Learning Repository</a>, a popular repository for machine learning
-datasets. In particular, we will be using the "Individual household
-electric power consumption Data Set" which I have made available on
-the course web site:
-
+Learning Repository</a>
 
 * <b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> [20Mb]
 
@@ -34,11 +52,6 @@ web site</a>:
 </ol>
 
 ## Loading the data
-
-
-
-
-
 When loading the dataset into R, please consider the following:
 
 * The dataset has 2,075,259 rows and 9 columns. First
@@ -82,33 +95,6 @@ the `plot1.png` plot. Your code file **should include code for reading
 the data** so that the plot can be fully reproduced. You should also
 include the code that creates the PNG file.
 
-* Add the PNG file and R code file to your git repository
 
-When you are finished with the assignment, push your git repository to
-GitHub so that the GitHub version of your repository is up to
-date. There should be four PNG files and four R code files.
-
-
-The four plots that you will need to construct are shown below. 
-
-
-### Plot 1
-
-
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
-
-
-### Plot 2
-
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
-
-
-### Plot 3
-
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
-
-
-### Plot 4
-
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
+ 
 
